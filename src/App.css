@@ -176,6 +176,7 @@ ul li:last-child {
 
 .Product-list {
   display: flex;
+  margin-top: 50px;
   /* overflow-y: scroll; */
 }
 
@@ -188,4 +189,19 @@ ul li:last-child {
   height: 250px;
   border: 1px solid #fff;
   margin-right: 9px;
+}
+
+/* Partners */
+
+#partners {
+  text-align: center;
+}
+
+.partners {
+  text-align: center;
+  margin-top: 150px;
+}
+
+.partners h1 {
+  font-size: 3rem;
 }
