@@ -1,13 +1,10 @@
 * {
-  padding: 0;
-  margin: 0;
   color: #fff;
   background-color: #000;
-  /* outline: 1px solid red; */
 }
 
 .App {
-  margin: auto 3%;
+  margin: auto 3%; /* outline: 1px solid red; */
 }
 
 /* Header */
@@ -62,18 +59,12 @@ ul li:last-child {
 
 .promo-area {
   display: flex;
-  justify-content: space-between;
-}
-
-.promo-area-text {
-  position: relative;
+  flex-direction: row-reverse;
+  justify-content: space-evenly;
 }
 
 #shop {
-  position: absolute;
-  top: 250px;
-  left: 100px;
-  border: 1px solid #0027ff;
+  margin-left: 100px;
   background-color: #0027ff;
   padding: 15px 100px;
   border-radius: 40px;
@@ -91,7 +82,6 @@ ul li:last-child {
 .promo-area-text h2 {
   font-weight: 300;
   margin-left: 80px;
-  margin-bottom: 200px;
 }
 
 #ps4 {
