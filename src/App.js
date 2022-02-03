@@ -4,6 +4,7 @@ import Promo from "./Components/Promo";
 import Newproducts from "./Components/Newproducts";
 import ProductList from "./Components/ProductList";
 import Partners from "./Components/Partners";
+import Footer from "./Components/Footer";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Newproducts />
       <ProductList />
       <Partners />
+      <Footer />
     </div>
   );
 }

@@ -8,6 +8,9 @@ export default function Promo() {
       <div className="promo-area-text">
         <h1>BUILT FOR GAMERS</h1>
         <h2>INTRODUCING DUAL SHOCK 4.THE MOST POWERFUL GAMING CONSOLE.</h2>
+        <a href="" id="shop">
+          SHOP
+        </a>
       </div>
     </div>
   );

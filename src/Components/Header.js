@@ -21,7 +21,7 @@ export default function Header() {
           </li>
         </ul>
       </nav>
-      <img src={Logo} alt="Logo" id="promo-img" />
+      <img src={Logo} alt="Logo" id="logo-img" />
       <div className="search">
         <input type="text" placeholder="search" id="search" />
         <FiSearch size={"1.5rem"} id="search-icon" />

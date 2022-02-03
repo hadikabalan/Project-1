@@ -53,12 +53,33 @@ ul li:last-child {
   right: 20px;
 }
 
-#promo-img {
+#logo-img {
   height: 120px;
   width: 120px;
 }
 
 /* Promo */
+
+.promo-area {
+  display: flex;
+  justify-content: space-between;
+}
+
+.promo-area-text {
+  position: relative;
+}
+
+#shop {
+  position: absolute;
+  top: 250px;
+  left: 100px;
+  border: 1px solid #0027ff;
+  background-color: #0027ff;
+  padding: 15px 100px;
+  border-radius: 40px;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
 
 .promo-area h1 {
   margin-top: 100px;
@@ -76,7 +97,6 @@ ul li:last-child {
 #ps4 {
   width: 700px;
   height: 400px;
-  float: right;
 }
 
 /* New Products */
@@ -164,10 +184,14 @@ ul li:last-child {
   margin-left: 780px;
 }
 
+#MobileFrame1 {
+  display: none;
+}
+
 /* Latest products */
 
 .products {
-  margin-top: 150px;
+  box-sizing: border-box;
 }
 
 .products h1 {
@@ -177,6 +201,7 @@ ul li:last-child {
 .Product-list {
   display: flex;
   margin-top: 50px;
+  flex-wrap: wrap;
   /* overflow-y: scroll; */
 }
 
@@ -185,8 +210,8 @@ ul li:last-child {
 }
 
 #product-item-img {
-  width: 250px;
-  height: 250px;
+  width: 240px;
+  height: 240px;
   border: 1px solid #fff;
   margin-right: 9px;
 }
@@ -204,4 +229,67 @@ ul li:last-child {
 
 .partners h1 {
   font-size: 3rem;
+}
+
+@media (max-width: 768px) {
+  nav {
+    display: none;
+  }
+
+  header {
+    justify-content: space-between;
+  }
+
+  .promo-area {
+    display: block;
+  }
+
+  #ps4 {
+    width: 500px;
+    margin-left: 150px;
+    margin-bottom: 100px;
+  }
+
+  .promo-area-text {
+    position: relative;
+  }
+
+  .promo-area-text h1 {
+    margin-left: 210px;
+    display: block;
+  }
+
+  .promo-area-text h2 {
+    text-align: center;
+    margin-bottom: 0px;
+  }
+
+  #shop {
+    top: 500px;
+    left: 270px;
+    padding: 10px 90px;
+    font-size: 1.5rem;
+  }
+
+  #FirstProduct,
+  #SecondProduct,
+  #ThirdProduct,
+  #Laptop,
+  hr,
+  .Product-list,
+  .partners,
+  footer,
+  .products h1 {
+    display: none;
+  }
+
+  .product-1 h1 {
+    display: none;
+  }
+
+  #MobileFrame1 {
+    display: block;
+    width: 300px;
+    margin: auto;
+  }
 }
